@@ -19,7 +19,7 @@ test('Assert home page', async t => {
     .expect(homepage.subtitleHeader.exists).ok()
 });
 
-test('User Registration and Login Test',async t => {
+test('User Registration and Login Test', async t => {
  await t
      .click(homepage.RegisterLink)
      .expect(getURL()).contains('register')

@@ -1,9 +1,9 @@
 import { Selector } from "testcafe";
 
-class MyOrderPage {
+class MyOrdersPage {
   constructor() {
     this.orders = Selector('a').withText('Orders');
     }
 }
 
-export default new MyOrderPage();
+export default new MyOrdersPage;
