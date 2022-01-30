@@ -1,9 +1,11 @@
-fixture`Test.timeouts`
-    .page`https://devexpress.github.io/testcafe/example`;
+fixture("Set page timeout Fixture")
+    .page("http://devexpress.github.io/testcafe/");
 
-test('My test', async () => {
-    /* ... */
+test("set page timeout Test", async t =>{
+    await t
+    .navigateTo('http://devexpress.github.io/testcafe/');
 }).timeouts({
-    pageLoadTimeout:    0,
-    
+    pageLoadTimeout:    2000,
+    pageRequestTimeout: 60000,
+    ajaxRequestTimeout: 60000,
 });
