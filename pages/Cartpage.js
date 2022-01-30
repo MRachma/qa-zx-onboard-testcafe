@@ -1,11 +1,10 @@
-import { Selector } from "testcafe";
+import { Selector } from 'testcafe';
 
-class cartpage{
-    constructor(){
+class CartPage{
+    constructor() {
         this.termsLabel = Selector('input#termsofservice')
         this.cartTotal = Selector('td.cart-total-right')
-        this.checkoutbtn = Selector('button#checkout.button-1.checkout-button')
+        this.checkoutBtn = Selector('button#checkout.button-1.checkout-button')
     }
 }
-
-export default new cartpage();
+export default new CartPage();

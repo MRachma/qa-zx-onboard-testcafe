@@ -15,6 +15,7 @@ class CheckoutPage{
         this.confirmOrderBtn = Selector('button.button-1.confirm-order-next-step-button')
         this.orderConfirmationMessage = Selector('strong').withText('Your order has been successfully processed!')
         this.viewOrderDetailsLink = Selector('a').withText('Click here for order details.')
+
     }
 
     async selectCountry(country){
@@ -24,4 +25,4 @@ class CheckoutPage{
         .click(countryOption.withText(country));
     }
 }
-export default new CheckoutPage();
+export default new CheckoutPage();  
