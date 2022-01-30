@@ -1,0 +1,17 @@
+name: Testcafe Workflow
+on:[push]
+
+jobs:
+  build:
+    name: Run Tests Testcafe
+    runs-on: windows-latest
+   
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/checkout@v1
+      - name: Install Testcafe from npm or Run Test
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome tests"
