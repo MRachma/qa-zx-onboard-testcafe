@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643577048727' stop='1643577048728'>
+    <name>First Fixture Onboard</name>
+    <title>First Fixture Onboard</title>
+    <test-cases>
+        <test-case start='1643577048727' status='passed' stop='1643577061970'>
+            <name>First Test</name>
+            <title>First Test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 97.0.4692.99 / macOS 10.15.7'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,56 @@
+{
+  "uid" : "ef7f188441645461",
+  "name" : "First Test",
+  "fullName" : "First Fixture Onboard.First Test",
+  "historyId" : "5141ba76a75ae453830fc4f565846e34",
+  "time" : {
+    "start" : 1643576464107,
+    "stop" : 1643576478157,
+    "duration" : 14050
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "First Fixture Onboard"
+  }, {
+    "name" : "testClass",
+    "value" : "First Fixture Onboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "First Test"
+  }, {
+    "name" : "package",
+    "value" : "First Fixture Onboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 97.0.4692.99 / macOS 10.15.7"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef7f188441645461.json",
+  "parameterValues" : [ "Chrome 97.0.4692.99 / macOS 10.15.7" ]
+}

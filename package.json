@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "allure-commandline": "^2.17.2",
+    "testcafe-reporter-allure": "^1.0.5",
     "testcafe-reporter-html": "^1.4.6"
   }
 }
