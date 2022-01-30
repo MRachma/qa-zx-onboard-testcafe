@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "testcafe": "^1.18.2"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
