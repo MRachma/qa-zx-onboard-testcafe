@@ -12,6 +12,7 @@
     "testcafe": "^1.18.2"
   },
   "dependencies": {
+    "@applitools/eyes-testcafe": "^1.15.3",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "allure-commandline": "^2.17.2",
     "testcafe-reporter-allure": "^1.0.5",
